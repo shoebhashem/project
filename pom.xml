@@ -14,7 +14,7 @@
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version>
 		<maven-surefire-report-plugin.version>2.18.1</maven-surefire-report-plugin.version>
-		<targetFolder>src/test/java</targetFolder>
+		<targetFolder>target/test/java</targetFolder>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -48,14 +48,6 @@
 							<value>org.evosuite.runtime.InitializingListener</value>
 						</property>
 					</properties>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.openclover</groupId>
-				<artifactId>clover-maven-plugin</artifactId>
-				<configuration>
-					<generateHtml>true</generateHtml>
-					<generateXml>true</generateXml>
 				</configuration>
 			</plugin>
 			<plugin>

@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage("build") {
       steps {
-        sh 'mvn --batch-mode clean clover:setup test clover:aggregate clover:clover -s mvn-settings.xml'
+        sh 'mvn --batch-mode clean clover:setup test clover:aggregate clover:clover -s mvn-setting.xml'
         step([
           $class: 'CloverPublisher',
           cloverReportDir: 'target/site',

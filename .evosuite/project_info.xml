@@ -346,6 +346,63 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>6</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>120</timeBudgetInSeconds>
+            <memoryInMB>800</memoryInMB>
+            <std_err_CLIENT>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Add\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Add\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Add\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Add\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\tests\Agile\Software\Testing\LeanTesting\Add_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>4</numberOfTests>
+                <totalNumberOfStatements>4</totalNumberOfStatements>
+                <totalEffortInSeconds>12</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>Agile.Software.Testing.LeanTesting.Substrate</fullNameOfTargetClass>
@@ -476,6 +533,63 @@
             <std_out_MASTER>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_14_59_38\logs\Agile.Software.Testing.LeanTesting.Substrate\std_out_MASTER.log</std_out_MASTER>
             <suite>
                 <fullPathOfTestSuite>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_14_59_38\tests\Agile\Software\Testing\LeanTesting\Substrate_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>4</numberOfTests>
+                <totalNumberOfStatements>4</totalNumberOfStatements>
+                <totalEffortInSeconds>12</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>3</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>120</timeBudgetInSeconds>
+            <memoryInMB>800</memoryInMB>
+            <std_err_CLIENT>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Substrate\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Substrate\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Substrate\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Substrate\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\tests\Agile\Software\Testing\LeanTesting\Substrate_ESTest.java</fullPathOfTestSuite>
                 <numberOfTests>4</numberOfTests>
                 <totalNumberOfStatements>4</totalNumberOfStatements>
                 <totalEffortInSeconds>12</totalEffortInSeconds>
@@ -696,6 +810,63 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>3</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>120</timeBudgetInSeconds>
+            <memoryInMB>800</memoryInMB>
+            <std_err_CLIENT>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Multiply\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Multiply\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Multiply\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Multiply\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\tests\Agile\Software\Testing\LeanTesting\Multiply_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>4</numberOfTests>
+                <totalNumberOfStatements>4</totalNumberOfStatements>
+                <totalEffortInSeconds>12</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>Agile.Software.Testing.LeanTesting.Divide</fullNameOfTargetClass>
@@ -829,6 +1000,63 @@
                 <numberOfTests>4</numberOfTests>
                 <totalNumberOfStatements>4</totalNumberOfStatements>
                 <totalEffortInSeconds>12</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>3</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>120</timeBudgetInSeconds>
+            <memoryInMB>800</memoryInMB>
+            <std_err_CLIENT>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Divide\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Divide\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Divide\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\logs\Agile.Software.Testing.LeanTesting.Divide\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\shashem1\eclipse-workspace\LeanTesting\.evosuite\tmp_2023_04_17_16_26_25\tests\Agile\Software\Testing\LeanTesting\Divide_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>4</numberOfTests>
+                <totalNumberOfStatements>4</totalNumberOfStatements>
+                <totalEffortInSeconds>13</totalEffortInSeconds>
                 <coverage>
                     <criterion>LineCoverage</criterion>
                     <coverageValue>1.0</coverageValue>

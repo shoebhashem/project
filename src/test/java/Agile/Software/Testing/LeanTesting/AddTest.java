@@ -14,7 +14,7 @@ public class AddTest
      * Rigorous Test :-)
      */
 
-	//@Test
+	@Test
     public void addTest()
     {
         Add result = new Add();

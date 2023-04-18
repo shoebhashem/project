@@ -53,34 +53,38 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.10-SNAPSHOT</version>
-			</plugin>
-			<plugin>
-				<groupId>org.openclover</groupId>
-				<artifactId>clover-maven-plugin</artifactId>
-				<configuration>
-					<generateHtml>true</generateHtml>
-					<generateXml>true</generateXml>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>build-helper-maven-plugin</artifactId>
-				<version>1.8</version>
+				<version>0.8.0</version>
 				<executions>
 					<execution>
-						<id>add-test-source</id>
-						<phase>generate-test-sources</phase>
+						<id>pre-unit-test</id>
 						<goals>
-							<goal>add-test-source</goal>
+							<goal>prepare-agent</goal>
 						</goals>
 						<configuration>
-							<sources>
-								<source>${targetFolder}</source>
-							</sources>
+							<destFile>${project.build.directory}/coverage-reports/jacoco-ut.exec</destFile>
+							<propertyName>surefireArgLine</propertyName>
+						</configuration>
+					</execution>
+					<execution>
+						<id>post-unit-test</id>
+						<phase>test</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+						<configuration>
+							<dataFile>${project.build.directory}/coverage-reports/jacoco-ut.exec</dataFile>
+							<outputDirectory>${project.reporting.outputDirectory}/jacoco-ut</outputDirectory>
 						</configuration>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.15</version>
+				<configuration>
+					<argLine>${surefireArgLine}</argLine>
+				</configuration>
 			</plugin>
 		</plugins>
 		<pluginManagement>

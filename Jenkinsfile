@@ -1,22 +1,64 @@
 pipeline {
-  agent any
-  tools {
-  	maven 'MAVEN'
-  	jdk 'JDK8'
-  }
-  stages {
-    stage("build") {
-      steps {
-        sh 'mvn --batch-mode clean clover:setup test clover:aggregate clover:clover -s mvn-setting.xml'
-        step([
-          $class: 'CloverPublisher',
-          cloverReportDir: 'target/site',
-          cloverReportFileName: 'clover.xml',
-          healthyTarget: [methodCoverage: 70, conditionalCoverage: 80, statementCoverage: 80], // optional, default is: method=70, conditional=80, statement=80
-          unhealthyTarget: [methodCoverage: 50, conditionalCoverage: 50, statementCoverage: 50], // optional, default is none
-          failingTarget: [methodCoverage: 0, conditionalCoverage: 0, statementCoverage: 0]     // optional, default is none
-        ])
-      }
+    agent any
+   
+    tools {
+        maven 'MAVEN'
+        jdk 'JDK8'
     }
-  }
+
+    stages {
+        stage('git') {
+            steps {
+                // Get some code from a GitHub repository
+                echo 'checkout from github'
+                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '41ef06c7-c73f-46ac-b7e1-d7735be9f5f6', url: 'https://github.com/shoebhashem/LeanTesting.git']])
+            }
+        }
+        stage('clean') {
+            steps {
+                // Get some code from a GitHub repository
+                echo 'mvn clean'
+                sh "mvn clean"
+            }
+        }
+        stage('compile') {
+            steps {
+                // Get some code from a GitHub repository
+                echo 'mvn compile'
+                sh "mvn compile"
+            }
+        }
+        stage('generate test cases') {
+            steps {
+                // Get some code from a GitHub repository
+                echo 'generate test cases'
+                sh "mvn evosuite:generate"
+            }
+        }
+        stage('export test cases') {
+            steps {
+                // Get some code from a GitHub repository
+                echo 'export test cases'
+                sh "mvn evosuite:export"
+            }
+        }
+
+        stage('test') {
+            steps {
+                // Get some code from a GitHub repository
+                echo 'execute tests'
+                sh "mvn clean test jacoco:restore-instrumented-classes jacoco:report"
+                }
+        }
+
+    }
+    post {
+        success {
+            jacoco(
+                execPattern: '**/build/jacoco/*.exec',
+                classPattern: '**/build/classes/java/main',
+                sourcePattern: '**/src/main'
+            )
+        }
+    }
 }

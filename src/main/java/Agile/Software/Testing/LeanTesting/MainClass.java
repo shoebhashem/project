@@ -29,7 +29,7 @@ public class MainClass
         
         //method
         
-        int num_1 = 8;
+        int num_1 = 6;
         findEvenOdd(num_1);
         int num_2 = 9;
         findEvenOdd(num_2);

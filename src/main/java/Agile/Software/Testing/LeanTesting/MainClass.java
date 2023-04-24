@@ -22,7 +22,10 @@ public class MainClass
         
         //Recursion class
         //Recursion A = new Recursion();
-        //System.out.println("Factorial of 5 is: "+A.factorial(5)); 
+        //System.out.println("Factorial of 5 is: "+A.factorial(5));
+        Sum sum = new Sum(); 
+        int result = sum.sum(5, 10);
+        System.out.println(result);
         
         //method
         

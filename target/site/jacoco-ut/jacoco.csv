@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+LeanTesting,Agile.Software.Testing.LeanTesting,Student,0,32,0,0,0,6,0,2,0,2
+LeanTesting,Agile.Software.Testing.LeanTesting,MainClass,0,229,1,3,0,42,1,4,0,3
+LeanTesting,Agile.Software.Testing.LeanTesting,PrintArray,0,17,0,2,0,4,0,3,0,2
+LeanTesting,Agile.Software.Testing.LeanTesting,Sum,0,16,0,2,0,4,0,3,0,2
+LeanTesting,Agile.Software.Testing.LeanTesting,A6,0,7,0,0,0,3,0,2,0,2

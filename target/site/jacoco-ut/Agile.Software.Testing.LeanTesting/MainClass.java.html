@@ -20,78 +20,81 @@
 <span class="fc" id="L20">        A6 obj = new A6();  </span>
 <span class="fc" id="L21">        obj.print();</span>
         
-        //Recursion class
-        //Recursion A = new Recursion();
-        //System.out.println(&quot;Factorial of 5 is: &quot;+A.factorial(5));
-<span class="fc" id="L26">        Sum sum = new Sum(); </span>
-<span class="fc" id="L27">        int result = sum.sum(5, 10);</span>
-<span class="fc" id="L28">        System.out.println(result);</span>
+        //Sum class (recursion code)
+<span class="fc" id="L24">        Sum sum = new Sum(); </span>
+<span class="fc" id="L25">        int result = sum.sum(5, 10);</span>
+<span class="fc" id="L26">        System.out.println(result);</span>
+        
+        //Multi class
+<span class="fc" id="L29">        Multi multi = new Multi();</span>
+<span class="fc" id="L30">        int res = multi.multi(5);</span>
+<span class="fc" id="L31">        System.out.println(res);</span>
         
         //method
         
-<span class="fc" id="L32">        int num_1 = 8;</span>
-<span class="fc" id="L33">        findEvenOdd(num_1);</span>
-<span class="fc" id="L34">        int num_2 = 9;</span>
-<span class="fc" id="L35">        findEvenOdd(num_2);</span>
+<span class="fc" id="L35">        int num_1 = 8;</span>
+<span class="fc" id="L36">        findEvenOdd(num_1);</span>
+<span class="fc" id="L37">        int num_2 = 9;</span>
+<span class="fc" id="L38">        findEvenOdd(num_2);</span>
         
         //PrintArray
-<span class="fc" id="L38">        PrintArray B = new PrintArray();</span>
-<span class="fc" id="L39">        int a[]=new int[5];//declaration and instantiation  </span>
-<span class="fc" id="L40">        a[0]=10;//initialization  </span>
-<span class="fc" id="L41">        a[1]=20;  </span>
-<span class="fc" id="L42">        a[2]=70;  </span>
-<span class="fc" id="L43">        a[3]=40;  </span>
-<span class="fc" id="L44">        a[4]=50; </span>
-<span class="fc" id="L45">        B.print(a);</span>
+<span class="fc" id="L41">        PrintArray B = new PrintArray();</span>
+<span class="fc" id="L42">        int a[]=new int[5];//declaration and instantiation  </span>
+<span class="fc" id="L43">        a[0]=10;//initialization  </span>
+<span class="fc" id="L44">        a[1]=20;  </span>
+<span class="fc" id="L45">        a[2]=70;  </span>
+<span class="fc" id="L46">        a[3]=40;  </span>
+<span class="fc" id="L47">        a[4]=50; </span>
+<span class="fc" id="L48">        B.print(a);</span>
         
         //Student
-<span class="fc" id="L48">        Student s1=new Student(111,&quot;ankit&quot;,5000f);  </span>
-<span class="fc" id="L49">        Student s2=new Student(112,&quot;sumit&quot;,6000f);  </span>
-<span class="fc" id="L50">        s1.display();  </span>
-<span class="fc" id="L51">        s2.display();</span>
+<span class="fc" id="L51">        Student s1=new Student(111,&quot;ankit&quot;,5000f);  </span>
+<span class="fc" id="L52">        Student s2=new Student(112,&quot;sumit&quot;,6000f);  </span>
+<span class="fc" id="L53">        s1.display();  </span>
+<span class="fc" id="L54">        s2.display();</span>
         
         //Math
-<span class="fc" id="L54">        double x = 28;    </span>
-<span class="fc" id="L55">        double y = 4;    </span>
+<span class="fc" id="L57">        double x = 28;    </span>
+<span class="fc" id="L58">        double y = 4;    </span>
           
         // return the maximum of two numbers  
-<span class="fc" id="L58">        System.out.println(&quot;Maximum number of x and y is: &quot; +Math.max(x, y));   </span>
+<span class="fc" id="L61">        System.out.println(&quot;Maximum number of x and y is: &quot; +Math.max(x, y));   </span>
           
         // return the square root of y   
-<span class="fc" id="L61">        System.out.println(&quot;Square root of y is: &quot; + Math.sqrt(y));   </span>
+<span class="fc" id="L64">        System.out.println(&quot;Square root of y is: &quot; + Math.sqrt(y));   </span>
           
         //returns 28 power of 4 i.e. 28*28*28*28    
-<span class="fc" id="L64">        System.out.println(&quot;Power of x and y is: &quot; + Math.pow(x, y));      </span>
+<span class="fc" id="L67">        System.out.println(&quot;Power of x and y is: &quot; + Math.pow(x, y));      </span>
   
         // return the logarithm of given value       
-<span class="fc" id="L67">        System.out.println(&quot;Logarithm of x is: &quot; + Math.log(x));   </span>
-<span class="fc" id="L68">        System.out.println(&quot;Logarithm of y is: &quot; + Math.log(y));  </span>
+<span class="fc" id="L70">        System.out.println(&quot;Logarithm of x is: &quot; + Math.log(x));   </span>
+<span class="fc" id="L71">        System.out.println(&quot;Logarithm of y is: &quot; + Math.log(y));  </span>
           
         // return the logarithm of given value when base is 10      
-<span class="fc" id="L71">        System.out.println(&quot;log10 of x is: &quot; + Math.log10(x));   </span>
-<span class="fc" id="L72">        System.out.println(&quot;log10 of y is: &quot; + Math.log10(y));    </span>
+<span class="fc" id="L74">        System.out.println(&quot;log10 of x is: &quot; + Math.log10(x));   </span>
+<span class="fc" id="L75">        System.out.println(&quot;log10 of y is: &quot; + Math.log10(y));    </span>
           
         // return the log of x + 1  
-<span class="fc" id="L75">        System.out.println(&quot;log1p of x is: &quot; +Math.log1p(x));    </span>
+<span class="fc" id="L78">        System.out.println(&quot;log1p of x is: &quot; +Math.log1p(x));    </span>
   
         // return a power of 2    
-<span class="fc" id="L78">        System.out.println(&quot;exp of a is: &quot; +Math.exp(x));    </span>
+<span class="fc" id="L81">        System.out.println(&quot;exp of a is: &quot; +Math.exp(x));    </span>
           
         // return (a power of 2)-1  
-<span class="fc" id="L81">        System.out.println(&quot;expm1 of a is: &quot; +Math.expm1(x)); </span>
+<span class="fc" id="L84">        System.out.println(&quot;expm1 of a is: &quot; +Math.expm1(x)); </span>
         
         
-<span class="fc" id="L84">    }</span>
+<span class="fc" id="L87">    }</span>
     
   //user defined method  
     public static void findEvenOdd(int num)  
     {  
     //method body  
-<span class="fc bfc" id="L90" title="All 2 branches covered.">    if(num%2==0)   </span>
-<span class="fc" id="L91">    System.out.println(num+&quot; is even&quot;);   </span>
+<span class="fc bfc" id="L93" title="All 2 branches covered.">    if(num%2==0)   </span>
+<span class="fc" id="L94">    System.out.println(num+&quot; is even&quot;);   </span>
     else   
-<span class="fc" id="L93">    System.out.println(num+&quot; is odd&quot;);  </span>
-<span class="fc" id="L94">    }  </span>
+<span class="fc" id="L96">    System.out.println(num+&quot; is odd&quot;);  </span>
+<span class="fc" id="L97">    }  </span>
 }
 
 

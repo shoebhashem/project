@@ -20,12 +20,15 @@ public class MainClass
         A6 obj = new A6();  
         obj.print();
         
-        //Recursion class
-        //Recursion A = new Recursion();
-        //System.out.println("Factorial of 5 is: "+A.factorial(5));
+        //Sum class (recursion code)
         Sum sum = new Sum(); 
         int result = sum.sum(5, 10);
         System.out.println(result);
+        
+        //Multi class
+        Multi multi = new Multi();
+        int res = multi.multi(5);
+        System.out.println(res);
         
         //method
         

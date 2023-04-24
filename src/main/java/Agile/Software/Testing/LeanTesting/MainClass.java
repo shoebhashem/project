@@ -31,7 +31,7 @@ public class MainClass
         
         int num_1 = 6;
         findEvenOdd(num_1);
-        int num_2 = 9;
+        int num_2 = 11;
         findEvenOdd(num_2);
         
         //PrintArray

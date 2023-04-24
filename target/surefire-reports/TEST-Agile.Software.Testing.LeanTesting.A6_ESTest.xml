@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Agile.Software.Testing.LeanTesting.A6_ESTest" time="0.009" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/home/shoeb/Downloads/jdk8u352-b08/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="java.vm.vendor" value="Temurin"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/shoeb/.jenkins/workspace/projectLeanTesting"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/shoeb/.jenkins/workspace/projectLeanTesting"/>
+    <property name="java.runtime.version" value="1.8.0_352-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/home/shoeb/Downloads/jdk8u352-b08/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/shoeb/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/home/shoeb/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.4.0-144-generic"/>
+    <property name="library.jansi.path" value="/home/shoeb/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/lib/jansi-native"/>
+    <property name="user.home" value="/home/shoeb"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="shoeb"/>
+    <property name="java.class.path" value="/home/shoeb/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/home/shoeb/Downloads/jdk8u352-b08/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test jacoco:restore-instrumented-classes jacoco:report"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_352"/>
+    <property name="java.ext.dirs" value="/home/shoeb/Downloads/jdk8u352-b08/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/home/shoeb/Downloads/jdk8u352-b08/jre/lib/resources.jar:/home/shoeb/Downloads/jdk8u352-b08/jre/lib/rt.jar:/home/shoeb/Downloads/jdk8u352-b08/jre/lib/sunrsasign.jar:/home/shoeb/Downloads/jdk8u352-b08/jre/lib/jsse.jar:/home/shoeb/Downloads/jdk8u352-b08/jre/lib/jce.jar:/home/shoeb/Downloads/jdk8u352-b08/jre/lib/charsets.jar:/home/shoeb/Downloads/jdk8u352-b08/jre/lib/jfr.jar:/home/shoeb/Downloads/jdk8u352-b08/jre/classes"/>
+    <property name="java.vendor" value="Temurin"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="/home/shoeb/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="test0" classname="Agile.Software.Testing.LeanTesting.A6_ESTest" time="0.009"/>
+</testsuite>

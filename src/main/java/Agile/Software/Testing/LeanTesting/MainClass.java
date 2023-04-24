@@ -24,7 +24,7 @@ public class MainClass
         
         //Multi class
         Multi multi = new Multi();
-        int res = multi.multi(5);
+        int res = multi.multi(6);
         System.out.println(res);
         
         //method

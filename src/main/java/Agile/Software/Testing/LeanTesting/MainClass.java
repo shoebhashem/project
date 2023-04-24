@@ -20,10 +20,7 @@ public class MainClass
         A6 obj = new A6();  
         obj.print();
         
-        //Sum class (recursion code)
-        Sum sum = new Sum(); 
-        int result = sum.sum(5, 10);
-        System.out.println(result);
+            
         
         //Multi class
         Multi multi = new Multi();
